@@ -1,0 +1,12 @@
+div  
+  p.search-box.input-group
+    input#seacrhbox.form-control(type="text", placeholder="Enter the keyword..", ng-model="searchtext")  
+    span.input-group-btn 
+      button.btn.btn-primary.btn-md(type="button", value="Search", ng-click="searchTags()") Search
+  div.container
+    div.row
+      div.box.col-lg-3.col-md-4.col-xs-6.col-xxs-12.thumb(ng-repeat="item in feedData.items track by $index")             
+        img.img-responsive(ng-src="{{item.media.m}}") 	
+        //-span.text {{item.title}}
+
+    
