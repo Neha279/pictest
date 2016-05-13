@@ -18,6 +18,14 @@ Steps to setup :
    
 browser open -> http://localhost:3000/
 
+To Run: 
+1. Clone/copy the project on local folder 
+2. Install noode js
+3. Goto cmd to the project folder path
+4. > npm install 
+5. > npm start 
+6. browser open -> http://localhost:3000/
+
 
 
 
